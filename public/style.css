@@ -136,3 +136,15 @@ summary { cursor: pointer; font-weight: 600; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.stress-sample { grid-column: 1 / -1; min-width: 0; }
+.stress-sample iframe {
+  display: block;
+  width: 100%;
+  height: 420px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  margin: 12px 0 8px;
+  background: var(--paper);
+}
+.photo-intro { margin-top: 8px; color: var(--muted); }
