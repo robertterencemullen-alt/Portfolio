@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+
+[[redirects]]
+  from = "/featured-projects.html"
+  to = "/#work"
+  status = 301
